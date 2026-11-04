@@ -1,0 +1,85 @@
+##########################################
+#    Модуль «Славянские праздники и события»
+#    Slavic Holidays & Events
+##########################################
+
+[worldserver]
+
+#
+#    Slavic.Enable
+#        Описание: включает/выключает весь модуль.
+#        По умолчанию: 1
+#
+
+Slavic.Enable = 1
+
+#
+#    Slavic.Locale
+#        Описание: язык сообщений модуля (чат, gossip, справка).
+#        Допустимые значения: ru, en
+#        По умолчанию: ru
+#
+
+Slavic.Locale = ru
+
+#
+#    Slavic.TokenDropChance
+#        Описание: базовый шанс (% из 10000) ронять жетон праздника с убитого монстра.
+#        По умолчанию: 3000 (30%)
+#
+
+Slavic.TokenDropChance = 3000
+
+#
+#    Slavic.TokenDropMinLevel
+#        Описание: минимальный уровень монстра, с которого падают жетоны.
+#        By default: 10
+#
+
+Slavic.TokenDropMinLevel = 10
+
+#
+#    Масленица (жетон 990201)
+#        Формат дат: MM-DD (проверяется по локальной дате сервера).
+#
+
+Slavic.Maslenitsa.Start = 02-24
+Slavic.Maslenitsa.End = 03-02
+
+#
+#    Купала (жетон 990202)
+#
+
+Slavic.Kupala.Start = 07-04
+Slavic.Kupala.End = 07-10
+
+#
+#    Коляда (жетон 990203)
+#
+
+Slavic.Kolyada.Start = 12-25
+Slavic.Kolyada.End = 01-07
+
+#
+#    Slavic.GMStartDuration
+#        Описание: длительность принудительного запуска праздника ГМ-командой (.slavic start) в часах.
+#        По умолчанию: 24
+#
+
+Slavic.GMStartDuration = 24
+
+#
+#    Slavic.Bonus.XpPercent
+#        Описание: бонус опыта (%) в дни активных праздников. 0 = выключен.
+#        По умолчанию: 0
+#
+
+Slavic.Bonus.XpPercent = 0
+
+#
+#    Slavic.Bonus.RepPercent
+#        Описание: бонус репутации (%) в дни активных праздников. 0 = выключен.
+#        По умолчанию: 0
+#
+
+Slavic.Bonus.RepPercent = 0

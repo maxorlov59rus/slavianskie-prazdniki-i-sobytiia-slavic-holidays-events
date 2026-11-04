@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: Славянские Праздники |cff0070dd(Slavic Holidays)|r
+## Title-enUS: Slavic Holidays |cff0070dd(Events)|r
+## Notes: Окно праздников: активные события, жетоны, награды.
+## Author: crazy-voin
+## Version: 1.0.0
+
+Slavic.lua
